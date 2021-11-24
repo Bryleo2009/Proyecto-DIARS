@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" href="/img/Systen Logo 1.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style_FC.css" />
+    <script src="https://kit.fontawesome.com/1f84f73194.js" crossorigin="anonymous"></script>
+    <script defer src="/js/main_home_admin.js"></script>
+    <title>Generar Flujo de Caja</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="/404.html" class="logo nav-link">Logo</a>
+            <button class="nav-toggle" aria-label="Abrir menú">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu nav-menu_visible">
+                <li class="nav-menu-item ">
+                    <a href="/index.html" class="nav-menu-link nav-link nav-menu-link_active">Cerrar Sesión</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <table>
+            <tr>
+                <td id="c5">
+                    <b>Selección de mes</b><br>
+                    <input type="date" name="" id="fecha"> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <button>Consultar Registros</button>
+                </td>
+                <td id="c6">
+                    <div class="ventana">
+                        <details class="guardar">
+                            <summary>
+                                <div class="button">
+                                    Guardar
+                                </div>
+                                <div class="details-modal-overlay"></div>
+                            </summary>
+                            <div class="details-modal">
+                                <div class="details-modal-close">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M13.7071 1.70711C14.0976 1.31658 14.0976 0.683417 13.7071 0.292893C13.3166 -0.0976311 12.6834 -0.0976311 12.2929 0.292893L7 5.58579L1.70711 0.292893C1.31658 -0.0976311 0.683417 -0.0976311 0.292893 0.292893C-0.0976311 0.683417 -0.0976311 1.31658 0.292893 1.70711L5.58579 7L0.292893 12.2929C-0.0976311 12.6834 -0.0976311 13.3166 0.292893 13.7071C0.683417 14.0976 1.31658 14.0976 1.70711 13.7071L7 8.41421L12.2929 13.7071C12.6834 14.0976 13.3166 14.0976 13.7071 13.7071C14.0976 13.3166 14.0976 12.6834 13.7071 12.2929L8.41421 7L13.7071 1.70711Z"
+                                            fill="black" />
+                                    </svg>
+                                </div>
+                                <div class="details-modal-title">
+                                    <h1></h1>
+                                </div>
+                                <div class="details-modal-content">
+                                    <p>
+                                        FLUJO GUARDADO CON ÉXITO
+                                    </p>
+                                </div>
+                            </div>
+                        </details>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div class="container"><!--tabla-->	
+            <div class="table">
+                <div class="table-header">
+                    <div class="header__item"><a id="name" class="filter__link" href="#">CÓDIGO</a></div>
+                    <div class="header__item"><a id="wins" class="filter__link filter__link--number" href="#">DESCRIPCIÓN DEL PRODUCTO</a></div>
+                    <div class="header__item"><a id="draws" class="filter__link filter__link--number" href="#">CANTIDAD</a></div>
+                </div>
+                <div class="table-content">	
+                    <div class="table-row">		
+                        <div class="table-data">Tom</div>
+                        <div class="table-data">2</div>
+                        <div class="table-data">0</div>
+                        
+                    </div>
+                    <div class="table-row">
+                        <div class="table-data">Dick</div>
+                        <div class="table-data">1</div>
+                        <div class="table-data">1</div>
+                        
+                    </div>
+                    <div class="table-row">
+                        <div class="table-data">Harry</div>
+                        <div class="table-data">0</div>
+                        <div class="table-data">2</div>
+                        
+                    </div>
+                </div>	
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container_footer">
+            <div class="box_footer">
+                <div class="logo">
+                    <img src="/img/Systen Logo 1.ico" alt="">
+                </div>
+                <div class="terms">
+                    <h4 id="empre01">Of System ®</h4>
+                    <p>"Ingeniería a tus manos"</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="box_copyright">
+            <hr>
+            <p>Todos los derechos reservados © 2021</p>
+            <b>Of System</b>
+        </div>
+    </footer>
+</body>
+
+</html>
